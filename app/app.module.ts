@@ -12,12 +12,12 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth'
 
 var firebaseAuthObj = {
-  apiKey: "AIzaSyBeHEy7cUAoEYj5CFm7XD4gyohMqK_R90Y",
-  authDomain: "testapp-1c64f.firebaseapp.com",
-  databaseURL: "https://testapp-1c64f.firebaseio.com",
-  projectId: "testapp-1c64f",
-  storageBucket: "testapp-1c64f.appspot.com",
-  messagingSenderId: "490632799704"
+  apiKey: "**********",
+  authDomain: "********",
+  databaseURL: "*****",
+  projectId: "*********",
+  storageBucket: "*********",
+  messagingSenderId: "*********"
 };
 
 @NgModule({
