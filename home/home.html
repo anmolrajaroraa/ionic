@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- <ion-list>
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="text" #username></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password" #password></ion-input>
+    </ion-item>
+  </ion-list>
+  
+  <div padding>
+    <button block ion-button (click)="signIn()">Sign In</button>
+  </div> -->
+  <div id="buttons">
+    <button ion-button (click)="openLogin()">Sign In</button>
+    <button ion-button (click)="openRegister()">Register</button> <!--if you want to make button screen wide use 'block' class-->
+  </div>
+</ion-content>
